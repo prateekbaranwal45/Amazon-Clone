@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #131921;
+    color: white;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.border:hover {
+    border: solid white 1px;
+}
+
+.nav-logo {
+    background-image: url(amazon_logo.png);
+    height: 50px;
+    width: 120px;
+    background-size: cover;
+}
+
+.nav-address {
+    width: 180px;
+    padding: 3px;
+    height: 50px;
+    align-content: center;
+}
+
+.first-text {
+    font-size: 13px;
+    margin-left: 15px;
+}
+
+.loc-icon {
+    display: flex;
+}
+
+.third-text {
+    margin-left: 3px;
+    font-weight: bold;
+}
+
+.navsearch {
+    display: flex;
+    width: 801px;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+select {
+    height: 45px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    background-color: #e6e6e6;
+    width: 50px;
+    padding: 7px;
+}
+
+.search-box {
+    width: 100%;
+    height: 45px;
+    border: none;
+    font-weight: bold;
+}
+
+.search-icon {
+    background-color: #AC764A;
+    height: 45px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+}
+
+/* fourth div */
+
+.language {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    height: 40px;
+    padding: 7px;
+    margin-left: 10px;
+}
+
+/* fifth div */
+.hello-account {
+    height: 40px;
+    width: 113px;
+    padding: 7px;
+
+}
+
+.hello {
+    font-size: 13px;
+}
+
+.account {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* sixth div */
+.ret-ord {
+    height: 40px;
+    padding: 7px;
+
+}
+
+.ret-ord :nth-child(1) {
+    font-size: 13px;
+}
+
+.ret-ord :nth-child(2) {
+    font-weight: bold;
+}
+
+.cart {
+    font-size: 14px;
+    height: 40px;
+    padding: 7px;
+    align-items: center;
+    display: flex;
+}
+
+/* pannel section */
+
+.pannel-bar {
+    width: 100%px;
+    height: 39px;
+    color: white;
+    background-color: #232F3E;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pannel-all {
+    height: 39px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.pannel-option {
+    display: flex;
+    font-size: 15px;
+    gap: 15px;
+    color: white;
+    height: 35px;
+    align-items: center;
+    list-style: none;
+}
+
+/* slide pages */
+.slideshow {
+    background-image: url(slide1.jpg);
+    width: 100%px;
+    height: 600px;
+}
