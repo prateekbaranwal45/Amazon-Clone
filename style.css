@@ -19,7 +19,7 @@
 }
 
 .nav-logo {
-    background-image: url(amazon_logo.png);
+    background-image: url(files/amazon_logo.png);
     height: 50px;
     width: 120px;
     background-size: cover;
@@ -167,7 +167,7 @@ select {
 
 /* slide pages */
 .slideshow {
-    background-image: url(slide1.jpg);
+    background-image: url(files/slide1.jpg);
     width: 100%px;
     height: 600px;
 }
