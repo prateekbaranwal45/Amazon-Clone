@@ -166,8 +166,58 @@ select {
 }
 
 /* slide pages */
-.slideshow {
+.slide-1 {
     background-image: url(files/slide1.jpg);
-    width: 100%px;
+    width: 100%;
     height: 600px;
+
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+.box1 {
+    width: 360px;
+    height: 400px;
+    position: relative;
+    background-color: white;
+    top: 250px;
+    left: 50px;
+    display: grid;
+    column-gap: 50px;
+}
+
+.box2 {
+    width: 360px;
+    height: 400px;
+    position: relative;
+    background-color: white;
+    top: 250px;
+    left: 50px;
+    display: grid;
+    column-gap: 50px;
+}
+
+.box3 {
+    width: 360px;
+    height: 400px;
+    position: relative;
+    background-color: white;
+    top: 250px;
+    left: 50px;
+    display: grid;
+    column-gap: 50px;
+}
+
+.box4 {
+    width: 360px;
+    height: 400px;
+    position: relative;
+    background-color: white;
+    top: 250px;
+    left: 50px;
+    display: grid;
+    column-gap: 50px;
 }
